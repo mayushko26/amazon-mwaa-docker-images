@@ -12,6 +12,7 @@ x-airflow-common: &airflow-common
 
     # Core configuration
     MWAA__CORE__REQUIREMENTS_PATH: "/usr/local/airflow/requirements/requirements.txt"
+    MWAA__CORE__IS_LOCAL: 'true'
 
     # Database configuration
     MWAA__DB__CREDENTIALS: '{"username": "airflow", "password": "airflow"}'
